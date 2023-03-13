@@ -13,7 +13,7 @@ public class BookstoreApplication {
 
   @RequestMapping(value = "/recommended")
   public Mono<String> readingList(){
-    return Mono.just("Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt)");
+    return Mono.just("Building Event Driven Microservices, Author-Adam Ballemore, Publisher- O`Reilly ");
   }
 
   public static void main(String[] args) {
